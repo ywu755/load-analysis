@@ -2,7 +2,7 @@
 This repository contains code for analyzing electricity load curves.
 
 # Overview
-The load shape library is a tool to represent the electricity consumption for a year (8760). This repo includes various methods calculating centroids of time series data, including The Euclidean barycentre, Dynamic Time Warping, and Soft Dynamic Time Warping to get the representative load centroid and create a load shape library.
+The load shape library is a tool to represent the electricity consumption for a year (8760). This repo includes various methods calculating centroids of time series data, including `The Euclidean barycentre`, `Dynamic Time Warping`, and `Soft Dynamic Time Warping` to get the representative load centroid and create a load shape library.
 
 As suggested by [Luo et al. (2017)](https://www.sciencedirect.com/science/article/abs/pii/S0306261917309819) the load shapes are dominated by factors such as seasons and day of the week. In this project, the data is divided into four seasons: Winter (Dec, Jan, Feb), Spring (Mar, Apr, May), Summer (Jun, Jul, Aug), and Fall (Sep, Oct, Nov). For each season, the data is further divided into weekdays and weekend. This allows us to identify different characteristics of the energy use pattern in each season. 
 
