@@ -12,3 +12,9 @@ Moreover, the library also provides users with the ability to scale the load to 
 PJM Hourly Energy Consumption Data
 PJM Interconnection LLC (PJM) is a regional transmission organization (RTO) in the United States. It is part of the Eastern Interconnection grid operating an electric transmission system serving all or parts of Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, West Virginia, and the District of Columbia.
 The data is availabe to download [here](https://www.kaggle.com/datasets/robikscube/hourly-energy-consumption?resource=download&select=COMED_hourly.csv).
+
+### How to execute the code:
+Run the following command:
+``` bash
+$  python reference/run_load_profile.py --config_yaml_path reference/load_config.yaml
+```
