@@ -1,0 +1,30 @@
+name: load_shape
+
+project_name: COMMED
+
+data_dir: /load_data/PJM_Load_hourly.csv
+
+customer_class: Residential
+data:
+  hourly_sum_cols:
+    - service_point
+    - year
+    - customer_class
+    - season
+    - rounded_time
+  groupby_cols:
+    - customer_class
+    - season
+    - weekend    
+  index_cols:
+    - service_point
+    - date
+    - customer_class
+    - season
+    - weekend    
+  pivot_col: hour
+  year: 2001
+  
+model:
+  gamma: 0.4
+  barycentre_method: euclidean
