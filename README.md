@@ -1,4 +1,4 @@
-# Load Shape Library
+# Typical load shape analysis
 This repository contains code for analyzing electricity load curves.
 
 ## Overview
