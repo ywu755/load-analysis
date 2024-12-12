@@ -1,5 +1,5 @@
 # Typical Load Shape Analysis
-This repository contains code for analyzing electricity load curves. This tool is developed to represent the electricity consumption for a year (8760).
+This repository contains code for analyzing electricity load curves.
 
 ## Overview
 This tool is developed to represent the electricity consumption for a year (8760). It also provides users with the ability to scale the load to a user-defined peak. Users can choose between a winter peak kW scaler or a summer peak kW scaler to customize the load.
